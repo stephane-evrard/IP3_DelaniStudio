@@ -38,6 +38,7 @@ $(document).ready(function () {
     });
     // END OF PRODUCT ACCORDION
 
+    //PORTFOLIO HOVER 
     $(".portfolio1Title").hide();
     $(".portfolio1").hover(function (e) {
         $(".portfolio1Title").show();
@@ -93,7 +94,7 @@ $(document).ready(function () {
     }, function () {
         $(".portfolio8Title").hide();
     });
-
+    //END OF PORTFOLIO HOVER 
 
 
 });
