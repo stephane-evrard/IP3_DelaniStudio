@@ -16,6 +16,16 @@ $(document).ready(function () {
     });
     // END OF DESIGN ACCORDION
 
+    // DEVELOPMENT ACCORDION
+    $(".development").click(function () {
+        $(".developmentContent").show();
+        $(".development").hide();
+    });
+    $(".developmentContent").click(function () {
+        $(".development").show();
+        $(".developmentContent").hide();
+    });
+    // END OF DEVELOPMENT ACCORDION
 
 
 
