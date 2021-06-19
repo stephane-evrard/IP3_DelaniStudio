@@ -1,5 +1,7 @@
+
 h1, h2, h6{
     text-align: center;
+
 }
 .bg-header{
     margin: auto;
@@ -9,6 +11,7 @@ h1, h2, h6{
 }
 p {
  text-align: center;
+ 
 }
 
 .bg-todo img{
@@ -26,6 +29,11 @@ p {
     margin-left: 200px;
     margin-top: 15px;
     display: inline-block;
+}
+.center-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .mouse{
     margin-top: 120px;
@@ -61,4 +69,53 @@ textarea {
     padding: 60px 30px 40px 30px;
 }
 
+/*--------------  MEDIA QUERY -----------------*/
 
+
+/*-------------- Mobile Screen ---------------- */
+@media  (max-width: 500px) {
+   
+    h1, h2, h6{
+        text-align: center;
+        font-size:3vw;
+    }
+    .bg-header{
+        color: white;
+        text-align: center;
+        margin-top: 1px;
+        
+    }
+    p {
+     text-align: center;
+     font-size:2vw;
+    }
+    
+    .bg-todo img{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .form-message{
+        margin-bottom: 20px;
+    }
+    .header-elements{
+        margin-top: 5px;
+        padding: 5px;
+    }
+    .social_media{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .mouse{
+        margin-top: 10px;
+    }
+    
+    input[type='text'], textarea {
+        background: none;
+        border-radius: 0px;
+        color: white
+    }
+    textarea {
+        padding: content: '\edea';px;
+        border: 1px solid white
+    }
+}
