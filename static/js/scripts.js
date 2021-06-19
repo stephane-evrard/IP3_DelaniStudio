@@ -96,5 +96,18 @@ $(document).ready(function () {
     });
     //END OF PORTFOLIO HOVER 
 
+    //FORM VALIDATION
+    $(".contact-form").validate({
+        rules: {
+            name: 'required',
+            email: {
+                required: true,
+                email: true
+            },
+            message: 'required',
+        }
+    });
+
+
 
 });
