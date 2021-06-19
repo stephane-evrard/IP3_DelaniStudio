@@ -27,8 +27,8 @@ $(document).ready(function () {
     });
     // END OF DEVELOPMENT ACCORDION
 
-      // PRODUCT ACCORDION
-      $(".product").click(function () {
+    // PRODUCT ACCORDION
+    $(".product").click(function () {
         $(".productContent").show();
         $(".product").hide();
     });
