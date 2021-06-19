@@ -14,4 +14,6 @@
     -   The project uses bootstrap to make it visually appealing.
     -   The project uses forms to collect user data.
 ##   Technologies used.
-    HTML, CSS, JavaScript, Bootstrap    
+    HTML, CSS, JavaScript, Bootstrap   
+##  Contact information.
+    Email: gozzo.ded@student.moringaschool.com
