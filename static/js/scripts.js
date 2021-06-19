@@ -27,7 +27,16 @@ $(document).ready(function () {
     });
     // END OF DEVELOPMENT ACCORDION
 
-
+      // PRODUCT ACCORDION
+      $(".product").click(function () {
+        $(".productContent").show();
+        $(".product").hide();
+    });
+    $(".productContent").click(function () {
+        $(".product").show();
+        $(".productContent").hide();
+    });
+    // END OF PRODUCT ACCORDION
 
 
 
