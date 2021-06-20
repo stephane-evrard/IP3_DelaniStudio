@@ -97,15 +97,15 @@ $(document).ready(function () {
     //END OF PORTFOLIO HOVER 
 
     //FORM VALIDATION
-    $(".contact-form").validate({
+    $('form[id="second_form"]').validate({
         rules: {
             name: 'required',
             email: {
                 required: true,
-                email: true
+                email: true,
             },
             message: 'required',
-        }
+        },
     });
 
 
